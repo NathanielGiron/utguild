@@ -38,7 +38,11 @@
 
   <div class="field">
     <%= f.label :attendance %>
-    <%= f.text_field :attendance %>
+    <select name="member[attendance]" id="memeber_attendance">
+      <option value=""></option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
   </div>
 
   <div class="actions">
