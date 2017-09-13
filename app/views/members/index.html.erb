@@ -11,6 +11,7 @@
       <th>Position</th>
       <th>IGN</th>
       <th>WoE?</th>
+      <th>Last Updated</th>
       <th>Actions</th>
     </tr>
   </thead>
@@ -28,6 +29,7 @@
         <td><%= member.position %></td>
         <td><%= member.ign %></td>
         <td><%= member.attendance %></td>
+        <td><%= member.updated_at %></td>
         <td>
           <%= link_to '<span class="glyphicon glyphicon-pencil"></span> Edit'.html_safe, edit_member_path(member) %>
         </td>
